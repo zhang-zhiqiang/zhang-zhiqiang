@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>堆 on Zzq</title>
+    <link>https://zhang-zhiqiang.github.io/tags/%E5%A0%86/</link>
+    <description>Recent content in 堆 on Zzq</description>
+    <image>
+      <url>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 23 Sep 2022 15:17:46 +0800</lastBuildDate><atom:link href="https://zhang-zhiqiang.github.io/tags/%E5%A0%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>堆</title>
+      <link>https://zhang-zhiqiang.github.io/posts/algo_deap/</link>
+      <pubDate>Fri, 23 Sep 2022 15:17:46 +0800</pubDate>
+      
+      <guid>https://zhang-zhiqiang.github.io/posts/algo_deap/</guid>
+      <description>二叉堆 第一个元素在数组中的索引为0的话，父节点和子节点的位置关系如下：  索引为i的左孩子的索引是（2*i+1） 索引为i的右孩子的索引是（2*i+2） 索引为i的父节点的索引是 floor((i-1)/2)  添加操作  先插入到堆的尾部 依次向上调整整个堆的结构（一直到根即可）  删除操作  将删除的元素替换为要删除的元素， 总长度减一 依次向下调整整个堆的结构（一直到堆尾即可）  golang heap
+minheap
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21  import ( &amp;#34;container/heap&amp;#34; ) type IntHeap []int func (h IntHeap) Len() int { return len(h) } func (h IntHeap) Less(i, j int) bool { return h[i] &amp;lt; h[j] } func (h IntHeap) Swap(i, j int) { h[i], h[j] = h[j], h[i] } func (h *IntHeap) Push(x interface{}) { *h = append(*h, x.</description>
+    </item>
+    
+  </channel>
+</rss>

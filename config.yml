@@ -1,7 +1,7 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://zhang-zhiqiang.github.io/"
 languageCode: zh
 defaultContentLanguage: zh
-title: ExampleSite
+title: Zzq
 paginate: 5
 theme: PaperMod
 
@@ -19,8 +19,8 @@ minify:
 # 重点查看 layouts/partials/post_meta.html
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Zzq
+  description: "description"
   keywords: [Blog, Portfolio, PaperMod]
   # author: Me
   # author: ["Me", "You"] # multiple authors
@@ -138,5 +138,6 @@ markup:
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
-    # lineNos: true
+    lineNos: true
     # style: monokai
+  color: "white"
