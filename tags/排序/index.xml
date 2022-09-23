@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>排序 on Zzq</title>
+    <link>https://zhang-zhiqiang.github.io/tags/%E6%8E%92%E5%BA%8F/</link>
+    <description>Recent content in 排序 on Zzq</description>
+    <image>
+      <url>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="https://zhang-zhiqiang.github.io/tags/%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>排序</title>
+      <link>https://zhang-zhiqiang.github.io/posts/algo_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhang-zhiqiang.github.io/posts/algo_sort/</guid>
+      <description>排序 冒泡 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 func Bubbling(data []int) ([]int, error) { if len(data) == 0 { return []int{}, nil } length := len(data) var flag bool for i := 0; i &amp;lt; length; i++ { flag = false for j := 0; j &amp;lt; length-i-1; j++ { if data[j] &amp;gt; data[j+1] { data[j], data[j+1] = data[j+1], data[j] flag = true } } if !</description>
+    </item>
+    
+  </channel>
+</rss>
