@@ -1,5 +1,6 @@
 baseURL: "https://examplesite.com/"
-languageCode: zh-Cn
+languageCode: zh
+defaultContentLanguage: zh
 title: ExampleSite
 paginate: 5
 theme: PaperMod
@@ -15,33 +16,35 @@ minify:
   disableXML: true
   minifyOutput: true
 
+# 重点查看 layouts/partials/post_meta.html
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  # DateFormat: "January 2, 2006"
+  DateFormat: "2006-2" # 文章创建时间格式 默认 January 2, 2006
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false # 阅读时间
+  ShowShareButtons: false # 文章底部链接链接
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false # 文字数量
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
-  hidemeta: false
+  hidemeta: true # 详情页 隐藏 meta
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true # 详情页 展示目录
+  tocopen: false # 详情 是否列出目录
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -53,7 +56,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Zzq"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -72,18 +75,18 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # 首页mod
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
 
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+  # socialIcons:
+  #   - name: twitter
+  #     url: "https://twitter.com/"
+  #   - name: stackoverflow
+  #     url: "https://stackoverflow.com"
+  #   - name: github
+  #     url: "https://github.com/"
 
   analytics:
     google:
@@ -99,8 +102,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    # URL: "https://github.com/<path_to_repo>/content"
+    # Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -116,17 +119,17 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
