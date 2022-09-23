@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Zzq</title>
-    <link>https://zhang-zhiqiang.github.io/tags/</link>
+    <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/</link>
     <description>Recent content in Tags on Zzq</description>
     <image>
-      <url>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://zhang-zhiqiang.github.io/zhang-zhiqiang/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 23 Sep 2022 15:28:41 +0800</lastBuildDate><atom:link href="https://zhang-zhiqiang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 15:28:41 +0800</lastBuildDate><atom:link href="https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker</title>
-      <link>https://zhang-zhiqiang.github.io/tags/docker/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/docker/</link>
       <pubDate>Fri, 23 Sep 2022 15:28:41 +0800</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/tags/docker/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网关</title>
-      <link>https://zhang-zhiqiang.github.io/tags/%E7%BD%91%E5%85%B3/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E7%BD%91%E5%85%B3/</link>
       <pubDate>Fri, 23 Sep 2022 15:23:04 +0800</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/tags/%E7%BD%91%E5%85%B3/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E7%BD%91%E5%85%B3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>二分查找</title>
-      <link>https://zhang-zhiqiang.github.io/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</link>
       <pubDate>Fri, 23 Sep 2022 15:18:26 +0800</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>堆</title>
-      <link>https://zhang-zhiqiang.github.io/tags/%E5%A0%86/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E5%A0%86/</link>
       <pubDate>Fri, 23 Sep 2022 15:17:46 +0800</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/tags/%E5%A0%86/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E5%A0%86/</guid>
       <description></description>
     </item>
     
     <item>
       <title>排序</title>
-      <link>https://zhang-zhiqiang.github.io/tags/%E6%8E%92%E5%BA%8F/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/tags/%E6%8E%92%E5%BA%8F/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/tags/%E6%8E%92%E5%BA%8F/</guid>
       <description></description>
     </item>
     

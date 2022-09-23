@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Zzq</title>
-    <link>https://zhang-zhiqiang.github.io/categories/</link>
+    <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/categories/</link>
     <description>Recent content in Categories on Zzq</description>
     <image>
-      <url>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://zhang-zhiqiang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://zhang-zhiqiang.github.io/zhang-zhiqiang/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 23 Sep 2022 15:28:41 +0800</lastBuildDate><atom:link href="https://zhang-zhiqiang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 15:28:41 +0800</lastBuildDate><atom:link href="https://zhang-zhiqiang.github.io/zhang-zhiqiang/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker</title>
-      <link>https://zhang-zhiqiang.github.io/categories/docker/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/categories/docker/</link>
       <pubDate>Fri, 23 Sep 2022 15:28:41 +0800</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/categories/docker/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/categories/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>算法</title>
-      <link>https://zhang-zhiqiang.github.io/categories/%E7%AE%97%E6%B3%95/</link>
+      <link>https://zhang-zhiqiang.github.io/zhang-zhiqiang/categories/%E7%AE%97%E6%B3%95/</link>
       <pubDate>Fri, 23 Sep 2022 15:23:04 +0800</pubDate>
       
-      <guid>https://zhang-zhiqiang.github.io/categories/%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://zhang-zhiqiang.github.io/zhang-zhiqiang/categories/%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     
